@@ -6,8 +6,8 @@ The goal of this project is to use **meteorological data** to predict a **forest
 To turn this regression problem into a classification, the target (area burned from the forest fire) is binned into three categories: small, medium, and large. According to Institute for the Conservation of Nature and Forests, a Large Forest Fire is defined as a forest fire burning more than 100 hectares (ha). Therefore, the large threshold is set to be at 100 ha for our model, which determines our focus for our target goal. (https://journals.openedition.org/mediterranee/6863)
 
 ## Data Set
-- **Imbalanced Data** 
-	-**47.78%** of the target (area) is 0.0 (0.0 ha observations were recorded because they were fires with an area of less than 1/100 ha)
+- **Imbalanced Data**: 
+	**47.78%** of the target (area) is 0.0 (0.0 ha observations were recorded because they were fires with an area of less than 1/100 ha)
 **97.87%** of forest fires **were not considered** as large at the time of data collection (out of the three different categories).
 
 # Highlight
